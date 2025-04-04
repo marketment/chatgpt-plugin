@@ -9,9 +9,9 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://https://court-case-api.onrender.com/openapi.yaml"
+    "url": "https://court-case-api.onrender.com/openapi.yaml"
   },
-  "logo_url": "https://https://court-case-api.onrender.com/logo.png",
+  "logo_url": "https://court-case-api.onrender.com/logo.png",
   "contact_email": "jinsungh@gmail.com",
   "legal_info_url": "https://court-case-api.onrender.com/legal"
 }
