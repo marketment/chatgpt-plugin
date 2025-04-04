@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "판례 검색 플러그인",
+  "name_for_model": "court_case_plugin",
+  "description_for_human": "판례를 키워드로 검색할 수 있는 플러그인입니다.",
+  "description_for_model": "사용자의 요청에 따라 판례를 검색하세요.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://your-app.onrender.com/openapi.yaml"
+  },
+  "logo_url": "https://your-app.onrender.com/logo.png",
+  "contact_email": "you@example.com",
+  "legal_info_url": "https://your-app.onrender.com/legal"
+}
