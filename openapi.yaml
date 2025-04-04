@@ -1,14 +1,14 @@
 openapi: 3.0.1
 info:
-  title: ÆÇ·Ê °Ë»ö API
-  description: Å°¿öµå·Î ÆÇ·Ê¸¦ °Ë»öÇÕ´Ï´Ù.
+  title: íŒë¡€ ê²€ìƒ‰ API
+  description: í‚¤ì›Œë“œë¡œ íŒë¡€ë¥¼ ê²€ìƒ‰í•©ë‹ˆë‹¤.
   version: "1.0.0"
 servers:
-  - url: https://<³ªÁß¿¡-render¿¡¼­-»ı¼ºµÈ-ÁÖ¼Ò>
+  - url: https://court-case-api.onrender.com
 paths:
   /search-case:
     get:
-      summary: ÆÇ·Ê °Ë»ö
+      summary: íŒë¡€ ê²€ìƒ‰
       operationId: searchCase
       parameters:
         - name: query
@@ -18,7 +18,7 @@ paths:
             type: string
       responses:
         "200":
-          description: °Ë»ö °á°ú
+          description: ê²€ìƒ‰ ê²°ê³¼
           content:
             application/json:
               schema:
@@ -29,11 +29,11 @@ paths:
                     items:
                       type: object
                       properties:
-                        »ç°Ç¸í:
+                        ì‚¬ê±´ëª…:
                           type: string
-                        »ç°Ç¹øÈ£:
+                        ì‚¬ê±´ë²ˆí˜¸:
                           type: string
-                        ¼±°íÀÏÀÚ:
+                        ì„ ê³ ì¼ì:
                           type: string
-                        ÆÇ½Ã»çÇ×:
+                        íŒì‹œì‚¬í•­:
                           type: string
